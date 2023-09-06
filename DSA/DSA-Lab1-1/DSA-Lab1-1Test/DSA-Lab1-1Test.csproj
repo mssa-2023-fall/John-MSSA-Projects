@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>DSA_Lab1_1Test</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -17,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LearnImmutable\LearnImmutable.csproj" />
+    <ProjectReference Include="..\DSA-Lab1-1\DSA-Lab1-1.csproj" />
   </ItemGroup>
 
 </Project>
