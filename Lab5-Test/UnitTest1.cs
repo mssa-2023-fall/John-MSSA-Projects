@@ -34,7 +34,6 @@ namespace Lab5_Test
 
             stack.RemoveEverySecond();
 
-            // Assuming the top element is now 9 since 10 (the second element) was removed
             Assert.AreEqual(9, stack.Pop());
         }
 
