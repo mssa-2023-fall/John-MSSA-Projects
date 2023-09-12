@@ -1,4 +1,4 @@
-namespace SearchProjectTest
+namespace BinarySearch
 {
     [TestClass]
     public class UnitTest1
@@ -18,8 +18,8 @@ namespace SearchProjectTest
         [TestMethod]
         public void Test_BinarySearch_NotFoundElement()
         {
-            int[] numbers = { 1, 2, 3,, 4, 5, 6, 7, 8, 9, 10 };
-            target = 11;
+            int[] numbers = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            int target = 11;
             int result = Searcher.BinarySearch(numbers, target);
 
             Assert.AreEqual(-1, result);
